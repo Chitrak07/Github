@@ -1,0 +1,93 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    background-color: lightblue; /* Add light blue background */
+  }
+  
+  .container {
+    flex: 1;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1, h2 {
+    text-align: center;
+    color: #ff9933; /* Change header color to saffron */
+  }
+  
+  footer {
+    text-align: center;
+    background-color: #ff9933; /* Change footer background color to saffron */
+    padding: 10px;
+    color: white;
+    flex-shrink: 0;
+  }
+
+
+#form-container {
+  margin-bottom: 20px;
+}
+
+input[type="text"],
+input[type="number"],
+select {
+  margin-right: 10px;
+}
+
+button {
+  margin-top: 10px;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: left;
+  border-bottom: 1px solid #ddd;
+}
+
+#balance-amount {
+  font-size: 20px;
+  font-weight: bold;
+}
+header {
+    background-color: #ff9933; /* Saffron color for header background */
+    padding: 10px;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin-right: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+  }
+  
+
+  
+  
+  
+  
+  
+  
+  
+  

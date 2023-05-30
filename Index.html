@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Personal Finance Tracker</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <header>
+        <nav>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+          </ul>
+        </nav>
+      </header>
+  <h1>Personal Finance Tracker</h1>
+  
+  <div class="container">
+    <div id="form-container">
+      <h2>Add Transaction</h2>
+      <input type="text" id="description" placeholder="Description">
+      <input type="number" id="amount" placeholder="Amount">
+      <select id="type">
+        <option value="income">Income</option>
+        <option value="expense">Expense</option>
+      </select>
+      <button id="add-btn">Add</button>
+    </div>
+    
+    <div id="transaction-table">
+      <h2>Transactions</h2>
+      <table>
+        <thead>
+          <tr>
+            <th>Description</th>
+            <th>Amount</th>
+            <th>Type</th>
+            <th>Action</th>
+          </tr>
+        </thead>
+        <tbody id="transaction-list"></tbody>
+      </table>
+    </div>
+    
+    <div id="balance">
+      <h2>Current Balance</h2>
+      <p id="balance-amount">$0.00</p>
+    </div>
+  </div>
+  <footer>
+    <p>Created by Shubham</p>
+  </footer>
+  <script src="fun.js"></script>
+</body>
+</html>
