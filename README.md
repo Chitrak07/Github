@@ -1,4 +1,4 @@
-Sure! Here's a documentation for the Personal Finance Tracker web application:
+
 
 # Personal Finance Tracker Documentation
 
